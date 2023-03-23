@@ -1,0 +1,6 @@
+-   id: no-unreliable
+    name: check for unreliable flags set to true
+    description: prevents committing with test-only flags set.
+    entry: no-unreliable
+    language: python
+    stages: [commit, push, manual]
